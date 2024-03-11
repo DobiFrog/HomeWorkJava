@@ -139,6 +139,7 @@ public class HttpTest {
         HttpResponse responseDelete = client.execute(deleteNote);
 
         assertEquals(204, responseDelete.getStatusLine().getStatusCode());
+
     }
 
 }
